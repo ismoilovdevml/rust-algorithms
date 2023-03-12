@@ -1,0 +1,1 @@
+<h1 align="center" style="color:orange;"><b>Greedy Algorithms - Ochko'z Algoritmlar</b></h1>

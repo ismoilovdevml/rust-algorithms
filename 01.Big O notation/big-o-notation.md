@@ -1,0 +1,1 @@
+<h1 align="center" style="color:orange;"><b>Big O notation - Katta O belgisi</b></h1>
