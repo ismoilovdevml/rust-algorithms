@@ -1,63 +1,6 @@
-// use rand::{thread_rng, Rng};
-
-
-// pub fn quick_sort<T: Ord>(v: &mut [T]) {
-//     let mut rng = thread_rng();
-//     _quick_sort(v, &mut rng);
-// }
-
-// fn _quick_sort<T: Ord, R: Rng>(v: &mut [T], rng: &mut [R]) {
-//     let n = v.len();
-
-//     if n <= 1 {
-//         return;
-//     }
-
-//     let pivot_idx = rng.gen_range(0..n);
-
-//     v.swap(pivot_idx, n - 1);
-
-//     let pivot_v = &v[n -1 ] as *const T;
-
-//     let mut l = 0;
-//     let r = n - 2;
-//     loop {
-//         loop{
-//             if l == n -1 || &v[l] > unsafe { &*pivot_v } {
-//                 break;
-//             }
-
-//             l += 1;
-//         }
-
-//         loop {
-//             if r == 0 || &v[r] < unsafe { &*pivot_v } {
-//                 break;
-//             }
-
-//             r -= 1;
-//         }
-
-//         if l < r {
-//             v.swap(l, r)
-//         } else {
-//             v.swap(l, n - 1);
-//             break;
-//         }
-
-//         let (left, right) = v.split_at_mut(l);
-//         _quick_sort(left, rng);
-//         if l != n - 1 {
-//             _quick_sort(&mut right[1..], rng)
-//         }
-//     }
-// }
-
-
-// use rand::{thread_rng, Rng};
 
 fn main () {
-    println!("Quick-Sort algoritmi");
+    println!("Quick-Sort Algoritmi");
     let mut raqamlar = [4, 6, 1, 3, 7, 9, 0, 5, 34, 12, 21, 431, 42, 56, 61];
     println!("Ro'yxat:\n {:?}", raqamlar);
 
