@@ -1,0 +1,1 @@
+<h1 align="center" style="color:orange;"><b>Linked List - Bog'langan List</b></h1>

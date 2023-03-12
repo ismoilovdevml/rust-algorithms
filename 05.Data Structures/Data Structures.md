@@ -1,0 +1,1 @@
+<h1 align="center" style="color:orange;"><b>Data Structures - Ma'lumot tuzilmalari</b></h1>
