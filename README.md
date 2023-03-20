@@ -19,6 +19,8 @@
 2. [Big O notation](./01.Big%20O%20notation/big-o-notation.md)
 3. [Sonlar](./02.Numbers/Numbers.md)
 4. [Searching Algorithms](./03.Searching%20Algorithms/Searching%20Algorithms.md)
+    * [Linear Search](./03.Searching%20Algorithms/linear-search.md)
+    * [Binary Search](./03.Searching%20Algorithms/binary-search.md)
 5. [Sorting Algorithms](./04.Sorting%20Algorithms/Sorting%20Algorithms.md)
 6. [Data Structures](./05.Data%20Structures/Data%20Structures.md)
 7. [Linked List](./06.Linked%20List/Linked%20List.md)
